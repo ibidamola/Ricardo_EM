@@ -1,0 +1,472 @@
+.home-main {
+  background-color: black;
+  overflow: hidden;
+}
+.container-fluid {
+  color: #ffffff;
+  background-color: #000000;
+}
+.navbar-nav .nav-link {
+  color: white !important;
+}
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.navbar-toggler {
+  background-color: white !important;
+}
+#banner {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+#banner-services {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+#title01 {
+  width: 50%;
+}
+.title01 {
+  width: 50%;
+  background-image: linear-gradient(
+    to right bottom,
+    #f8f4f4,
+    #cacaca,
+    #979797,
+    #676767,
+    #3b3b3b,
+    #1f1f1f,
+    #121212,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000
+  );
+}
+.title {
+  margin: auto 20px;
+}
+.services {
+  width: 100%;
+  padding: 20px;
+  color: #ffffff;
+}
+.services h1{
+  color: #f6a84f;
+}
+.arc-image {
+  width: 500px;
+  height: 600px;
+  margin: 20px auto;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  background-image: url("../images/pexels-expect-best-323780.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 4px solid #fff;
+}
+.arc-image-services {
+  width: 100%;
+  height: 600px;
+  margin: 20px auto;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  background-image: url("../images/houses/pexels-alex-staudinger-1732414.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner-image {
+  width: 50%;
+}
+.title h1 {
+  font-size: 4rem;
+  color: #fff;
+  margin-bottom: 50px;
+}
+.title p {
+  color: #a9a9a9;
+  margin-bottom: 50px;
+}
+.title h6 {
+  color: #f6a84f;
+}
+#number-count {
+  display: flex;
+  flex-direction: row;
+}
+.aboutus {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: #ffffff;
+}
+
+.aboutus::before,
+.aboutus::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 300px; /* Adjust the width of the line as needed */
+  height: 3px; /* Adjust the height of the line as needed */
+  background-color: gold;
+}
+
+.aboutus::before {
+  left: 80px; /* Adjust the position of the line before the h1 */
+}
+
+.aboutus::after {
+  right: 80px; /* Adjust the position of the line after the h1 */
+}
+
+.per-one-number-count {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  text-align: center;
+  color: #cacaca;
+}
+.per-one-number-count p {
+  color: #a9a9a9;
+  font-size: 0.8rem;
+}
+#faplus {
+  color: #f6a84f;
+}
+#companies-slider {
+  width: 100%;
+  height: 25vh;
+}
+/**********************SWIPPER ******************/
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+}
+
+#sec-section {
+  color: #f6a84f;
+  padding-left: 20px;
+  background-color: #ffffff;
+}
+#card {
+  margin-right: 20px;
+}
+
+.card img {
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  height: 40%;
+}
+
+.card:hover .card-body {
+  background-color: #fff;
+  color: #000000;
+}
+.card-body h6 {
+  text-align: left;
+  color: #f6a84f;
+}
+
+#market {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+#market-icon {
+  margin-right: 40px;
+}
+#arrowdown {
+  margin-left: 40px;
+}
+.market {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.collapse-market {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*******************CONTACT US***********************/
+.contactvideo {
+  width: 90%;
+  height: 60vh;
+  background-color: #cacaca;
+  margin: 20px auto;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+.contactvideo .video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+#contact-form form {
+  width: 60%;
+  margin: 30px auto;
+  color: #ffffff;
+}
+#contact-form form input {
+  margin-bottom: 15px;
+}
+.contact-details {
+  color: #f6a84f;
+  padding-left: 70px;
+  width: 100%;
+}
+#textarea {
+  height: 150px;
+}
+.footer {
+  width: 100%;
+  background-color: #fff;
+}
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+.footer-content img {
+  height: 100%;
+}
+
+.viewing-links{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.viewing-links button{
+  margin-left: 20px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+#services #service-footer, #about #service-footer, #contact #service-footer{
+  visibility: hidden;
+  height: 0px;
+}
+
+@media screen and (max-width: 600px) {
+  #banner {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  .title01,
+  .title {
+    width: 100%;
+  }
+  .banner-image {
+    width: 100%;
+    order: -1;
+  }
+  .aboutus::before,
+  .aboutus::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 100px; /* Adjust the width of the line as needed */
+    height: 3px; /* Adjust the height of the line as needed */
+    background-color: gold;
+  }
+
+  .aboutus::before {
+    left: 50px; /* Adjust the position of the line before the h1 */
+  }
+
+  .aboutus::after {
+    right: 50px; /* Adjust the position of the line after the h1 */
+  }
+}
+
+.center-text {
+  color: #111;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.reviews {
+  background-color: #000000;
+  padding: 40px 6%;
+}
+
+.reviews *{
+  color: #f8f4f4;
+}
+
+.review img {
+  width: 40vw;
+  height: auto;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.review-section {
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(auto-fit, minmax(40vw, auto));
+  gap: 5rem;
+}
+
+.review h5 {
+  color: #636872;
+  font-size: 14px;
+  text-transform: capitalize;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+/*@media screen and (min-width: 600px) {
+    #banner {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+      }
+      #title01{
+        width: 100%;
+      }
+      .title01,
+      .title {
+        width: 100%;
+      }
+      .banner-image {
+        width: 100%;
+        order: -1;
+      }
+      .aboutus::before,
+      .aboutus::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        width: 100px; 
+        height: 3px; 
+        background-color: gold;
+      }
+    
+      .aboutus::before {
+        left: 50px;
+      }
+    
+      .aboutus::after {
+        right: 50px; 
+      }
+}*/
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (max-width: 768px) {
+  #banner {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  #title01 {
+    width: 100%;
+  }
+  .title01,
+  .title {
+    width: 100%;
+  }
+  .banner-image {
+    width: 100%;
+    order: -1;
+  }
+  .aboutus::before,
+  .aboutus::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    width: 50px; /* Adjust the width of the line as needed */
+    height: 3px; /* Adjust the height of the line as needed */
+    background-color: gold;
+  }
+
+  .aboutus::before {
+    left: 20px; /* Adjust the position of the line before the h1 */
+  }
+
+  .aboutus::after {
+    right: 20px; /* Adjust the position of the line after the h1 */
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (max-width: 992px) {
+  .aboutus::before,
+  .aboutus::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    width: 50px; /* Adjust the width of the line as needed */
+    height: 3px; /* Adjust the height of the line as needed */
+    background-color: gold;
+  }
+
+  .aboutus::before {
+    left: 20px; /* Adjust the position of the line before the h1 */
+  }
+
+  .aboutus::after {
+    right: 20px; /* Adjust the position of the line after the h1 */
+  }
+
+  .title {
+    margin: auto;
+  }
+
+  .arc-image {
+    width: 100%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
